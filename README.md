@@ -36,4 +36,4 @@ A large number of customers enter their Tax/VAT number incorrectly. Common mista
 Credits due where credits due
 --------
 
-The command is based on https://github.com/peterjaap/magerun-addons and modified to work with VAT field on table customer_address_entity_varchar and not on customer_entity_varchar.
+The command is based on https://github.com/peterjaap/magerun-addons and modified a little bit to work with VAT field on mysql table customer_address_entity_varchar instead of customer_entity_varchar.
