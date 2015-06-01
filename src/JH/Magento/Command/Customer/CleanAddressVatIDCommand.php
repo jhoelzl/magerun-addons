@@ -53,7 +53,9 @@ class CleanAddressVatIDCommand extends AbstractMagentoCommand
                 $db->update($resource->getTableName('customer_address_entity_varchar'), array(
                     'value' => $newTaxvat,
                 ), 'value_id = ' . $row['value_id']);
+                if ($row['value'] != $newTaxvat) {
                 $output->writeln('<info>Taxvat for customer address ' . $row['entity_id'] .' updated from ' . $row['value'] . ' to ' . $newTaxvat . '</info>');
+                }
             }
         }
     }
