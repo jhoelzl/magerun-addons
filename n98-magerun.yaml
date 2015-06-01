@@ -1,0 +1,6 @@
+autoloaders:
+  JH: %module%/src
+
+commands:
+  customCommands:
+    - JH\Magento\Command\Customer\CleanAddressVatIDCommand
