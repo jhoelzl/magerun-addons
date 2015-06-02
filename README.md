@@ -1,7 +1,7 @@
 MageRun Addons
 ==============
 
-Some additional commands for the excellent N98-MageRun Magento command-line tool.
+Some additional commands for the excellent [N98-MageRun](https://github.com/netz98/n98-magerun) Magento command-line tool.
 
 Installation
 ------------
