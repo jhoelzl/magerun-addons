@@ -28,7 +28,7 @@ Commands
     
 ### Clean up customers' address VAT-ID field ###
 
-A large number of customers enter their Tax/VAT number incorrectly. Common mistakes are using dots and/or spaces. This command loops through the taxvat fields already in the database and cleans them up. So 'nl 01.23.45.67 b01' (which won't validate) will become '01234567B01' (which will validate). This is useful for future purchases by these customers.
+A large number of customers enter their Tax/VAT number incorrectly. Common mistakes are using dots and/or spaces. This command loops through the taxvat fields already in the database and cleans them up. So 'nl 01.23.45.67 b01' (which won't validate) will become 'NL01234567B01' (which will validate). This is useful for future purchases by these customers.
 
     $ n98-magerun.phar customer:clean-address-vat-id
     
